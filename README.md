@@ -1,0 +1,1 @@
+# localForage-cordova-sqliteplugin
