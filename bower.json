@@ -1,0 +1,32 @@
+{
+  "name": "localForage-cordova-sqlite-plugin",
+  "version": "1.0.0",
+
+  "scripts": [
+    "src/localforage-cordova-sqlite-plugin.js"
+  ],
+  "main": "src/localforage-cordova-sqlite-plugin.js",
+  "homepage": "https://github.com/Ecostack/localForage-cordova-sqlite-plugin",
+  "authors": [
+    "Sebastian Scheibe"
+  ],
+  "license": "Apache 2.0 license",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "localforage": ">=1.2.0"
+  },
+  "devDependencies": {
+    "es6-promise": "~1.0.0",
+    "requirejs": "~2.1.10",
+    "mocha": "~1.18.2",
+    "expect": "~0.3.1",
+    "assert": "~0.1.0",
+    "modernizr": "~2.8.1"
+  }
+}
