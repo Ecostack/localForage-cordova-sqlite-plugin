@@ -11,7 +11,7 @@ A cordova-sqlite-storage driver for [localForage](https://github.com/mozilla/loc
 
 # Configuration
 ## Normal
-
+TODO
 ## With Angular
 
 With Angular you would first configure the localForageProvider.
