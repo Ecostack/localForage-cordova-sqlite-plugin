@@ -39,14 +39,8 @@ angular.module('<REPLACE_ME_WITH_MODULE_NAME>')
 	  var lcReturn = {};
 	  
 	  lcReturn.get = function(pKey) {
-			return $q(function(resolve, reject) {
-					$localForage.getItem(pKey).then(function(pItem) {
-						resolve(pItem);
-					}, function(pErr) {
-						reject(pErr);
-					})
-			})
-		}
+		return $localForage.getItem(pKey);
+	  };
 		
 		// other service methods..
 	  
