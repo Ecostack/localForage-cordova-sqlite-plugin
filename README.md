@@ -3,6 +3,21 @@ localForage-cordova-sqlite-plugin
 
 A cordova-sqlite-storage driver for [localForage](https://github.com/mozilla/localForage).
 
+# Info
+There are two drivers in this repository. 
+
+- cordova-sqlite-plugin
+- cordova-sqlite-plugin-no-support-check
+
+The first one depends in the "checkSupport" method on the ["deviceready" event](http://docs.phonegap.com/en/4.0.0/cordova_events_events.md.html) of Cordova.
+
+The second one just tells that the support is guaranteed everytime. The last was created due to a bug, that the "deviceready" event is sometimes not fired in Steroids and Ionic.
+
+See these tickets for more information:
+
+https://github.com/AppGyver/steroids/issues/772
+
+https://github.com/driftyco/ionic-cli/issues/259
 
 # Requirements
 
