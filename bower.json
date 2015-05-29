@@ -3,7 +3,8 @@
   "version": "1.0.0",
 
   "scripts": [
-    "src/localforage-cordova-sqlite-plugin.js"
+    "src/localforage-cordova-sqlite-plugin.js",
+    "src/localforage-cordova-sqlite-plugin-no-support-check.js"
   ],
   "main": "src/localforage-cordova-sqlite-plugin.js",
   "homepage": "https://github.com/Ecostack/localForage-cordova-sqlite-plugin",
